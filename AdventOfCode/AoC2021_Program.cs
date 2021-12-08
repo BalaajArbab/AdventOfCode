@@ -1,11 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using AdventOfCode_2021.Days;
+
+
 
 namespace AdventOfCode_2021
 {
-    class Program
+    class AoC2021_Program
     {
         static void Main(string[] args)
         {
@@ -28,7 +28,8 @@ namespace AdventOfCode_2021
             //Day6.Run();
 
             Console.WriteLine("\nDay 7");
-            Day7.Run();
+            //Day7.Run();
+            
 
             Console.ReadLine();
         }
