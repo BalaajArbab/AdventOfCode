@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using System.IO;
 
 namespace AdventOfCode_2021.Days
@@ -33,7 +32,7 @@ namespace AdventOfCode_2021.Days
 
             foreach (short n in crabs) fuelUsage += Math.Abs(median - n);
 
-            Console.WriteLine($"Part 1 Fuel used: {fuelUsage} to move to horizontal position {median}");
+            Console.WriteLine($"\nPart 1 Fuel used: {fuelUsage} to move to horizontal position {median}");
 
 
             // Part 2
@@ -42,7 +41,7 @@ namespace AdventOfCode_2021.Days
 
             foreach (short n in crabs) sum += n;
 
-            int average = (int)(sum / crabCount);          
+            int average = (int)(sum / crabCount); // The mean rounded down used in following foreach loop
 
             fuelUsage = 0;
             int fuelUsage2 = 0;
@@ -58,7 +57,7 @@ namespace AdventOfCode_2021.Days
 
             }
 
-            average += 1;
+            average += 1; // The mean rounded up used in following foreach loop
 
             foreach (short n in crabs)
             {
@@ -71,7 +70,7 @@ namespace AdventOfCode_2021.Days
 
             }
 
-            int minFuelUsage = fuelUsage < fuelUsage2 ? fuelUsage : fuelUsage2;
+            int minFuelUsage = fuelUsage < fuelUsage2 ? fuelUsage : fuelUsage2; // Minimum fuel usage between calculation of fuel usage between the 2 means (rounded up and down)
 
             Console.WriteLine($"Part 2 Fuel used: {minFuelUsage}");
 
