@@ -61,7 +61,9 @@ namespace AdventOfCode_2021.Days
                             if (!lowest) break;
 
                         }
+#pragma warning disable CS0168 // Variable is declared but never used
                         catch (Exception e)
+
                         {
 
                         }
@@ -146,6 +148,7 @@ namespace AdventOfCode_2021.Days
                 count += floodFill(grid, y, x + 1);
             }
             catch (Exception e)
+#pragma warning restore CS0168 // Variable is declared but never used
             {
 
             }
