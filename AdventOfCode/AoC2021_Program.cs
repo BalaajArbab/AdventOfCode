@@ -9,6 +9,11 @@ namespace AdventOfCode_2021
     {
         static void Main(string[] args)
         {
+
+            /* Remove Comment to run code for specific day
+             * 
+             */
+
             //Console.WriteLine("Day 1");  
             //Day1.Run();                  
                                          
@@ -27,8 +32,12 @@ namespace AdventOfCode_2021
             //Console.WriteLine("\nDay 6");
             //Day6.Run();
 
-            Console.WriteLine("\nDay 7");
-            Day7.Run();
+            //Console.WriteLine("\nDay 7");
+            //Day7.Run();
+
+            Console.WriteLine("\nDay 8");
+            Day8.Run();
+            
             
 
             Console.ReadLine();
