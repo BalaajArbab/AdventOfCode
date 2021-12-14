@@ -36,7 +36,7 @@ namespace AdventOfCode_2021.Days
             int lines = energyLevels.Count;
             int locations = energyLevels[0].Count;
 
-            for (int i = 0; i < 5000; i++)
+            for (int i = 0;; i++)
             {
 
                 Queue<(int value, int y, int x)> queue = new Queue<(int value, int y, int x)>();
@@ -111,7 +111,9 @@ namespace AdventOfCode_2021.Days
                     queue.Enqueue((val, y + changeY, x + changeX));
                 }
             }
+#pragma warning disable CS0168 // Variable is declared but never used
             catch (Exception e)
+#pragma warning restore CS0168 // Variable is declared but never used
             {
 
             }
