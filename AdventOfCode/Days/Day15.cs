@@ -56,7 +56,7 @@ namespace AdventOfCode_2021.Days
                 }
             }
 
-            // Part 2 Grid Construction
+            // Part 2 Grid Construction end
 
             Vertex[,] vertices;
 
@@ -221,15 +221,6 @@ namespace AdventOfCode_2021.Days
         private static void computeHeuristic (Vertex vertex, int y, int x, int yLength, int xLength)
         {
             int h = Math.Abs(x - (xLength - 1)) + Math.Abs(y - (yLength - 1)); // -1 is for index count correction. 
-
-            /*if (h != 0) h--;
-            if (h != 0) h--;
-            if (h != 0) h--;
-            if (h != 0) h--;
-            if (h != 0) h--;
-            if (h != 0) h--;
-            if (h != 0) h--;
-            */
 
             vertex.Heuristic = h;
         }
