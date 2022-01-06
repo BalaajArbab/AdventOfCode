@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Text;
 using System.Linq;
 
 namespace AdventOfCode_2021.Days
@@ -70,7 +69,9 @@ namespace AdventOfCode_2021.Days
                 typeID = concatBits(binaryString, start + 3, start + 5);
             }
 
+#pragma warning disable CS0168 // Variable is declared but never used
             catch (Exception e)
+#pragma warning restore CS0168 // Variable is declared but never used
             {
                 return (0, 0, 0);
             }
