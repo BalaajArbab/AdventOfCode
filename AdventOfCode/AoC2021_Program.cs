@@ -62,8 +62,11 @@ namespace AdventOfCode_2021
             //Console.WriteLine("\nDay 16");
             //Day16.Run();
 
-            Console.WriteLine("\nDay 17");
-            Day17.Run();
+            //Console.WriteLine("\nDay 17");
+            //Day17.Run();
+
+            Console.WriteLine("\nDay 18");
+            Day18.Run();
 
 
 
