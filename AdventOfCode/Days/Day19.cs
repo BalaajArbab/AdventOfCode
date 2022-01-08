@@ -65,12 +65,6 @@ namespace AdventOfCode_2021.Days
                 }
             }
 
-
-            foreach (Scanner s in scanners)
-            {
-                Console.WriteLine($"X: {s.X}, Y: {s.Y}, Z: {s.Z}");
-            }
-
             HashSet<Beacon> set = new HashSet<Beacon>();
 
             foreach (Scanner s in scanners)
