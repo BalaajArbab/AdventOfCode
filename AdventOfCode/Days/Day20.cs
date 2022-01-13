@@ -61,7 +61,7 @@ namespace AdventOfCode_2021.Days
 
             Console.WriteLine($"Part 2 Count of Lit Pixels: {graph.CountLitPixels()}");           
 
-            graph.Print();
+            // graph.Print();
 
         }
 
