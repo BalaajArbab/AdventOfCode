@@ -1,7 +1,9 @@
 # Advent of Code 
 
-Solutions to Advent of Code 2021
+My solutions to [Advent of Code 2021](https://adventofcode.com/2021) Day 1 - Day 21.
 
-https://adventofcode.com/2021
+Done in C# for fun, not the best/quickest.
 
 ---
+
+![stars](image/AoC_Stars.png)
